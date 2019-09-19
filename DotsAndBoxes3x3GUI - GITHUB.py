@@ -1,10 +1,3 @@
-'''
-Learning Boxes and Dots through reinforcement learning.
-Learns to play the game over time.
-Reinforcement Learning code adapted from Professor R. Vincent's Tic-Tac-Toe
-reinforcement learning example.
-GUI code adapted from ssolanki's Dot-Box-Game-Python on github
-'''
 
 import random
 from tkinter import *
