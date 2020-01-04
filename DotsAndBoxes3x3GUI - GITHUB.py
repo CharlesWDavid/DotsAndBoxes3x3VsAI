@@ -163,7 +163,7 @@ class generic_player(object):
         return random.choice(actions)
 
 class tdzero_player(generic_player):
-    '''Learns to play tic-tac-toe using basic temporal difference
+    '''Learns to play using basic temporal difference
     learning, known as TD(0).'''
     def __init__(self, game, player_num):
         super().__init__(game, player_num)
