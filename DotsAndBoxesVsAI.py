@@ -11,7 +11,7 @@ R_LOSS = -100.0
 R_TIE = -50.0
 R_BOX = -1.0
 
-#These define the TKinter GUI Parameters
+# These define the TKinter GUI Parameters
 TOL = 20
 CELLSIZE = 60
 OFFSET = 37
@@ -257,7 +257,7 @@ class BoxesAndDots_rl(object):
 
     def addEdge(self,s0, a):
         '''Adds edges between two vertices.'''
-        #converts action to initial and final nodes
+        # converts action to initial and final nodes
         if a%(self._width*2-1) < self._width-1:
             initial = a-(a//(self._width*2-1))*(self._width-1)
             final = initial + 1
